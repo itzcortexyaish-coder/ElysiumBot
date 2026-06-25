@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "البوت المساعد في سيرفر Elysium نتمنى لكم المتعة في السيرفر",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 3,
       },
     ],
   },
@@ -159,29 +159,29 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Elysium",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Elysiums",
       // Currency symbol shown in balances.
       symbol: "$",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 1000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 100000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 200,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 100,
+    workMax: 1000,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 50,
+    begMax: 500,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.4,
